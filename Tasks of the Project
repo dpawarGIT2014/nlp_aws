@@ -1,0 +1,26 @@
+In order to achieve the project goal, there are several tasks to accomplish:
+
+Things done already: 
+
+1. Define the problem: subcategorize negative reviews on amazon. 
+
+2. Gathering the data 
+
+3. Uploading data to S3 storage
+
+Things to do:
+
+1. Methods. Research on methods used for similar projects. For example, there are several Consumer Review Analysis projects on Kaggle.com, there are many valuable discussions to dig into. 
+
+2. Category Selection. For example, possible compalining types: late delivery, building quality/durability, misleading description, price, appearance, etc. Based on the review texts, we may also get an idea about the type of products. And for different type of products, the concerns should be different. For electronics, durability is important; while for clothes/accessories, appearance is more important. 
+
+3. Data cleaning. Tokenization, Stemming, and Lemmatization, Stopwords-filtering, etc. 
+
+4. Modeling. We need to choose the right model, train it using the train data and validate it using the test data, and possibly optimize the model to improve the performance. The data cleaning could be very time-consuming, so maybe we need to do Task 3 and 4 at the same time: keep working on the data and update the cleaned ones, at the mean time use the most current version of processed data in the modeling process. 
+
+5. Finally, we will need to deploy the model on Sagemaker. 
+
+I believe everyone can contribute to some tasks based on her/his background, and learn from each other. 
+
+Feel free to add your ideas here. 
+
