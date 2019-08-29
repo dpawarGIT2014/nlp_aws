@@ -1,0 +1,7 @@
+https://awstrainingjy.notebook.us-east-1.sagemaker.aws/notebooks/custom-classifier-cleaned.ipynb#
+
+1. create file 'test_custom_classifier.csv' as input, to train a custom classifier in Comprehend
+2. use the trained classifier to classify input "test_custom_classifier_TestData_3.csv"
+3. download the output file and uncompress it to get 'predictions.jsonl'
+
+thank you!
